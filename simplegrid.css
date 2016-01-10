@@ -17,8 +17,8 @@ body {
 
 [class*='col-'] {
 	float: left;
-  min-height: 1px;
-	padding-right: 20px; /* column-space */
+    min-height: 1px;
+	padding-right: 48px; /* column-space */
 }
 
 .grid {
@@ -36,9 +36,9 @@ body {
 }
 
 .grid-pad {
-	padding-top: 20px;
-	padding-left: 20px; /* grid-space to left */
-	padding-right: 0; /* grid-space to right: (grid-space-left - column-space) e.g. 20px-20px=0 */
+	padding-top: 48px;
+	padding-left: 48px; /* grid-space to left */
+	padding-right: 0; /* grid-space to right: (grid-space-left - column-space) e.g. 48px-48px=0 */
 }
 
 .push-right {
@@ -176,8 +176,8 @@ body {
 		min-width: 0;
 		margin-left: 0;
 		margin-right: 0;
-		padding-left: 20px; /* grid-space to left */
-		padding-right: 10px; /* grid-space to right: (grid-space-left - column-space) e.g. 20px-10px=10px */
+		padding-left: 48px; /* grid-space to left */
+		padding-right: 10px; /* grid-space to right: (grid-space-left - column-space) e.g. 48px-10px=10px */
 	}
 
 	[class*='col-'] {
