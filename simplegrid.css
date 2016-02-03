@@ -18,13 +18,13 @@ body {
 [class*='col-'] {
 	float: left;
     min-height: 1px;
-	padding-right: 48px; /* column-space */
+	padding-right: 32px; /* column-space */
 }
 
 .grid {
 	width: 100%;
 	max-width: 1140px;
-	min-width: 748px; /* when using padded grid on ipad in portrait mode, width should be viewport-width - padding = (768 - 20) = 748. actually, it should be even smaller to allow for padding of grid containing element */
+	min-width: 732px; /* when using padded grid on ipad in portrait mode, width should be viewport-width - padding = (768 - 20) = 748. actually, it should be even smaller to allow for padding of grid containing element */
 	margin: 0 auto;
 	overflow: hidden;
 }
@@ -36,9 +36,9 @@ body {
 }
 
 .grid-pad {
-	padding-top: 48px;
-	padding-left: 48px; /* grid-space to left */
-	padding-right: 0; /* grid-space to right: (grid-space-left - column-space) e.g. 48px-48px=0 */
+	padding-top: 32px;
+	padding-left: 32px; /* grid-space to left */
+	padding-right: 0; /* grid-space to right: (grid-space-left - column-space) e.g. 32px-32px=0 */
 }
 
 .push-right {
@@ -176,25 +176,25 @@ body {
 		min-width: 0;
 		margin-left: 0;
 		margin-right: 0;
-		padding-left: 48px; /* grid-space to left */
-		padding-right: 10px; /* grid-space to right: (grid-space-left - column-space) e.g. 48px-10px=10px */
+		padding-left: 32px; /* grid-space to left */
+		padding-right: 16px; /* grid-space to right: (grid-space-left - column-space) e.g. 32px-16px=16px */
 	}
 
 	[class*='col-'] {
 		width: auto;
 		float: none;
-		margin: 10px 0;
+		margin: 16px 0;
 		padding-left: 0;
-		padding-right: 10px; /* column-space */
+		padding-right: 16px; /* column-space */
 	}
 
 	/* Mobile Layout */
 
 	[class*='mobile-col-'] {
 		float: left;
-		margin: 0 0 10px;
+		margin: 0 0 16px;
 		padding-left: 0;
-		padding-right: 10px; /* column-space */
+		padding-right: 16px; /* column-space */
 		padding-bottom: 0;
 	}
 
